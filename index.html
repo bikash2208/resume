@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <!-- FontAwesome JS-->
     <script defer src="assets/fontawesome/js/all.min.js"></script>
-    <!-- Theme CSS -->  
+    <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/devresume.css">
   </head>
   <body>
@@ -45,7 +45,7 @@
           <div class="resume-intro py-3">
             <div class="row align-items-center">
               <div class="col-12 col-md-3 col-xl-2 text-center">
-                <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/resume-profile.png" alt="image">
+                <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/profile.png" alt="image">
               </div>
               <div class="col text-start">
                 <p class="mb-0">I’m a Software Developer at Bluebash with over 3 years of experience creating impactful software solutions for e-commerce, CRM, and healthcare systems. I specialize in building secure, user-friendly, and scalable applications that address real-world challenges.
@@ -62,20 +62,41 @@
               <div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
                 <section class="work-section py-3">
                   <h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
-                  <div class="item mb-3">
-                    <div class="item-heading row align-items-center mb-2">
-                      <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Software Developer</h4>
-                      <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Bluebash | June-2024 - Present</div>
-                    </div>
-                    <div class="item-content">
-                      <ul class="resume-list">
-                      </ul>
-                    </div>
-                  </div>
+									<div class="item mb-3">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Software Developer</h4>
+											<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"><a href="https://www.bluebash.co/" class="theme-link">Bluebash</a> | June-2024 - Present</div>
+										</div>
+										<div class="item-content">
+											<p>Passionate about building impactful software solutions through innovative problem-solving, seamless integrations, and robust system architectures. Focused on delivering efficient and scalable solutions while fostering team collaboration and growth.</p>
+											<ul class="resume-list">
+												<li>Led the development of an Agent Management System for handling databases, customer subscriptions, and agent creation.</li>
+												<li>Built a microservice for knowledge base management, document parsing, and implementing Retrieval-Augmented Generation (RAG) APIs.</li>
+												<li>Developed a proxy service to synchronize RAG data stored in a Python application with the Rails backend.</li>
+												<li>Designed an authentication system to support OAuth, API-key, and multi-key-based integrations for external services.</li>
+												<li>Implemented workflow automation for worksheet tasks, streamlining business operations and improving efficiency.</li>
+												<li>Integrated Pundit gem for application authorization by writing policies for secure and efficient action handling.</li>
+												<li>Enhanced SaaS-based EHR platforms, allowing hospitals and clinics to customize and scale their systems for broader reach.</li>
+												<li>Contributed to the open-source ABDM-Ruby gem, improving healthcare delivery through EHR integration with ABHA and ABDM systems.</li>
+											</ul>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgreSQL</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">RESTful APIs</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Pundit</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">RAG (Retrieval-Augmented Generation)</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">SaaS</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">API proxy</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Authentication</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Authorization</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Workflow Automation</span></li>
+											</ul>
+										</div>
+									</div>
 									<div class="item mb-3">
                     <div class="item-heading row align-items-center mb-2">
                       <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Associate Software Developer</h4>
-                      <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Bluebash | June 2022 - May 2024</div>
+                      <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"><a href="https://www.bluebash.co/" class="theme-link">Bluebash</a> | June 2022 - May 2024</div>
                     </div>
 										<div class="item-content">
 											<p>Driven to enhance project outcomes through strategic problem-solving, teamwork, and ongoing learning. Focused on cultivating strong team dynamics and achieving shared success.</p>
@@ -101,105 +122,151 @@
 										</div>
 									</div>
                   <!--//item-->
-                  <div class="item mb-3">
-                    <div class="item-heading row align-items-center mb-2">
-                      <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Associate Software Developer - Intern</h4>
-                      <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">BlueBash | 2022 - 2023</div>
-                    </div>
-                    <div class="item-content">
-                      <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
-                      <ul class="resume-list">
-                        <li>Lorem ipsum dolor sit amet, consectetuer.</li>
-                        <li>Aenean commodo ligula eget dolor.</li>
-                      </ul>
-                    </div>
-                  </div>
+									<div class="item mb-3">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Associate Software Developer - Intern</h4>
+											<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"><a href="https://www.bluebash.co/" class="theme-link">BlueBash</a> | Nov 3021- May 2022</div>
+										</div>
+										<div class="item-content">
+											<p>During my internship, I honed my web development skills by learning and applying HTML, CSS, and JavaScript to create dynamic web applications. The company provided guide sheets, and I successfully built a theme-based application.</p>
+											<p>I also learn Ruby on Rails through a company-provided guide sheet and utilized the framework to develop a Gallery App, similar to a social media platform, allowing users to share galleries of beautiful images.</p>
+											<p>Later, I collaborated within teams on client projects, gaining valuable experience in real-world application development and teamwork.</p>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">HTML</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">CSS</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">JavaScript</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Git</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Team Collaboration</span></li>
+											</ul>
+										</div>
+									</div>
                 </section>
+                <section class="project-section py-3">
+                  <h3 class="text-uppercase resume-section-heading mb-4">Open Source Contribution</h3>
+									<div class="item mb-3">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">ABDM-Ruby</h4>
+											<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"><a href="https://github.com/BlueBash/abdm-ruby" class="theme-link">https://github.com/BlueBash/abdm-ruby</a></div>
+										</div>
+										<div class="item-content">
+											<p>The <b>ABDM-Ruby</b> gem simplifies EHR integration with ABHA and ABDM for enhanced healthcare services.</p>
+											<ul>
+												<li>Developed tools for seamless management of health records, ABHA number generation, and ABDM-related operations.</li>
+												<li>Contributed to advancing healthcare services by enabling efficient EHR integration across hospitals and clinics.</li>
+											</ul>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Healthcare</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">ABDM</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">EHR</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Open Source</span></li>
+											</ul>
+										</div>
+									</div>
+								</section>
                 <!--//work-section-->
                 <section class="project-section py-3">
                   <h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
-                  <div class="item mb-3">
-                    <div class="item-heading row align-items-center mb-2">
-                      <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">kickCall</h4>
-                      <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Open Source</div>
-                    </div>
-                    <div class="item-content">
-                      <p>You can use this section for your side projects. You can <a href="#" class="theme-link">provide a project link here</a> as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                      <ul>
-                        <li>Spearheaded the migration of Konnektive CRM to a microservices architecture, leading the development of a scalable Ruby on Rails backend. Collaborated closely with frontend teams to seamless integration with React.</li>
-                        <li>Established secure authentication and authorization using bcrypt, Json Web Token (JWT), and Pundit, resulting 70% efficiency boost in security. Designed user access management architecture for robust security and permissions.</li>
-                      </ul>
-                      <ul class="list-inline">
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgreSQL</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Redis</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Sidekiq</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Elasticsearch</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Pundit</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Pagy</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Bcrypt</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">JWT</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">CronJob</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Jsonapi Serializer</span></li>
-                      </ul>
-                    </div>
-                  </div>
+									<div class="item mb-3">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Kickcall Application</h4>
+											<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"></div>
+										</div>
+										<div class="item-content">
+											<p>Kickcall is a dynamic platform for agent management, subscription handling, and knowledge base integration.
+											<ul>
+												<li>Developed a robust Agent Management System for managing databases, customer subscriptions, and agent creation.</li>
+												<li>Implemented a microservice to build a knowledge base, parse documents, and integrate RAG (Retrieval-Augmented Generation) APIs.</li>
+												<li>Created a proxy service to synchronize RAG data from a Python application with the Rails backend.</li>
+												<li>Built an authentication system supporting OAuth, API-key, and multi-key-based integrations.</li>
+												<li>Designed workflow architecture to automate tasks in a worksheet, enhancing operational efficiency.</li>
+												<li>Integrated authorization policies using the Pundit gem for secure action management.</li>
+											</ul>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgreSQL</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">API Proxy</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Pundit</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">RAG APIs</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Authentication</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Workflow Automation</span></li>
+											</ul>
+										</div>
+									</div>
 
-                  <div class="item mb-3">
-                    <div class="item-heading row align-items-center mb-2">
-                      <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Swiss CRM</h4>
-                      <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Open Source</div>
-                    </div>
-                    <div class="item-content">
-                      <p>You can use this section for your side projects. You can <a href="#" class="theme-link">provide a project link here</a> as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                      <ul>
-                        <li>Spearheaded the migration of Konnektive CRM to a microservices architecture, leading the development of a scalable Ruby on Rails backend. Collaborated closely with frontend teams to seamless integration with React.</li>
-                        <li>Established secure authentication and authorization using bcrypt, Json Web Token (JWT), and Pundit, resulting 70% efficiency boost in security. Designed user access management architecture for robust security and permissions.</li>
-                      </ul>
-                      <ul class="list-inline">
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgreSQL</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Redis</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Sidekiq</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Elasticsearch</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Pundit</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Pagy</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Bcrypt</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">JWT</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">CronJob</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Jsonapi Serializer</span></li>
-                      </ul>
-                    </div>
-                  </div>
+									<div class="item mb-3">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">NextBrand EHR</h4>
+											<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"></div>
+										</div>
+										<div class="item-content">
+											<p>NextBrand EHR empowers hospitals and clinics with complete ownership of their online EHR systems, functioning as a SaaS platform to enhance scalability and reach.
+											<ul>
+												<li>Built a customizable SaaS-based EHR platform to cater to the unique needs of hospitals and clinics.</li>
+												<li>Facilitated seamless expansion and scalability for broader audience engagement in the healthcare sector.</li>
+											</ul>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">SaaS</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgreSQL</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Action Cable</span></li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="item mb-3">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Swiss CRM</h4>
+											<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"></div>
+										</div>
+										<div class="item-content">
+											<p>Swiss CRM is a customer relationship management system built with scalable architecture and robust security.
+											<ul>
+												<li>Spearheaded the migration of Konnektive CRM to a microservices architecture, leading the development of a scalable Ruby on Rails backend.</li>
+												<li>Collaborated closely with frontend teams for seamless integration with React.</li>
+												<li>Established secure authentication and authorization using bcrypt, Json Web Token (JWT), and Pundit, resulting in a 70% efficiency boost in security.</li>
+												<li>Designed user access management architecture for robust security and permissions.</li>
+											</ul>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgreSQL</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Redis</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Elasticsearch</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">JWT</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">CronJob</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Pundit</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Bcrypt</span></li>
+											</ul>
+										</div>
+									</div>
                   <!--//item-->
-                  <div class="item">
-                    <div class="item-heading row align-items-center mb-2">
-                      <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">iTrust EHR</h4>
-                      <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Open Source</div>
-                    </div>
-                    <div class="item-content">
-                      <p>You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-                      <ul>
-                        <li>Developed and maintained the iTrust EHR SaaS application, prioritizing exception handling. Analyzed and debugged over 100 Airbrake-logged exceptions to ensure seamless performance, achieving a 30% performance boost.</li>
-                        <li>Implemented and designed the read-only subscription feature for the app, enhancing authorization for minimal-charge access to existing data by doctors. Achieved a 2% subscription rate out of 569 EHR subscribers.</li>
-                        <li>Designed an algorithm for migrating other EHR data to the iTrust Application, resulting in a 15% increase in imports.</li>
-                      </ul>
-                      <ul class="list-inline">
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">JWT</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">CronJob</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Apartment</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgreSQL</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Redis</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Pundit</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Pagy</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Minitest</span></li>
-                        <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Active Model Serializers</span></li>
-                      </ul>
-                    </div>
-                  </div>
+									<div class="item mb-3">
+										<div class="item-heading row align-items-center mb-2">
+											<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">iTrust EHR</h4>
+											<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"></div>
+										</div>
+										<div class="item-content">
+											<p>iTrust EHR is a SaaS-based electronic health record application tailored for multitenant setups.
+											<ul>
+												<li>Developed and maintained the iTrust EHR SaaS application with a focus on robust exception handling.</li>
+												<li>Analyzed and debugged over 100 Airbrake-logged exceptions, boosting performance by 30%.</li>
+												<li>Implemented a read-only subscription feature, allowing minimal-charge access to existing data for doctors, achieving a 2% subscription rate out of 569 EHR subscribers.</li>
+												<li>Designed an algorithm to migrate other EHR data into the iTrust Application, resulting in a 15% increase in imports.</li>
+											</ul>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Ruby on Rails</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgreSQL</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Redis</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">JWT</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">CronJob</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Apartment</span></li>
+												<li class="list-inline-item"><span class="badge bg-secondary badge-pill">Multitenancy</span></li>
+											</ul>
+										</div>
+									</div>
                 </section>
-                <!--//project-section-->    
+                <!--//project-section-->
               </div>
               <!--//resume-main-->
               <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
@@ -208,8 +275,7 @@
                   <div class="item">
                     <h4 class="item-title">Languages</h4>
                     <ul class="list-unstyled resume-skills-list">
-                      <li class="mb-2">Ruby</li>
-                      <li class="mb-2">C, C++</li>
+                      <li class="mb-2">Ruby, C++</li>
                     </ul>
                   </div>
                   <div class="item">
@@ -224,47 +290,18 @@
                       <li class="mb-2">Sidekiq</li>
                       <li class="mb-2">RESTful API</li>
                       <li class="mb-2">Serializers</li>
-                    </ul>
-                  </div>
-                  <div class="item">
-                    <h4 class="item-title">Database</h4>
-                    <ul class="list-unstyled resume-skills-list">
                       <li class="mb-2">PostgreSQL</li>
-                      <li class="mb-2">RDBMS</li>
-                      <li class="mb-2">AWS S3</li>
-                      <li class="mb-2">Exoscale Cloud</li>
-                      <li class="mb-2">Redis</li>
+                      <li class="mb-2">Git, Github, Git Actions</li>
                     </ul>
                   </div>
                   <div class="item">
-                    <h4 class="item-title">Database</h4>
+                    <h4 class="item-title">Others</h4>
                     <ul class="list-unstyled resume-skills-list">
-                      <li class="mb-2">PostgreSQL</li>
-                      <li class="mb-2">RDBMS</li>
-                      <li class="mb-2">AWS S3</li>
-                      <li class="mb-2">Exoscale Cloud</li>
-                      <li class="mb-2">Redis</li>
-                    </ul>
-                  </div>
-                  <div class="item">
-                    <h4 class="item-title">Tools & Services</h4>
-                    <ul class="list-unstyled resume-skills-list">
-                      <li class="mb-2">Git/Github/Git Actions</li>
-                      <li class="mb-2">Docker</li>
-                      <li class="mb-2">Sentry</li>
+											<li class="mb-2">Sentry</li>
                       <li class="mb-2">Airbrake</li>
                       <li class="mb-2">Twilio</li>
+                      <li class="mb-2">Docker</li>
                       <li class="mb-2">Agile Methodology</li>
-                    </ul>
-                  </div>
-                  <!--//item-->
-                  <div class="item">
-                    <h4 class="item-title">Professional</h4>
-                    <ul class="list-unstyled resume-skills-list">
-                      <li class="mb-2">Team player
-                      <li>
-                      <li class="mb-2">Strong problem solver</li>
-                      <li>Good time management</li>
                     </ul>
                   </div>
                   <!--//item-->
@@ -276,6 +313,7 @@
                     <li class="mb-3">
                       <div class="resume-degree font-weight-bold">Bachelor of Technology in Computer Science Engineering</div>
                       <div class="resume-degree-org text-muted">Indo Global College of Engineering</div>
+                      <div class="resume-degree-time text-muted">CGPA: 7.89 / 10.00</div>
                       <div class="resume-degree-time text-muted">2018 - 2022</div>
                     </li>
                   </ul>
@@ -285,12 +323,14 @@
                   <h3 class="text-uppercase resume-section-heading mb-4">Awards</h3>
                   <ul class="list-unstyled resume-awards-list">
                     <li class="mb-3">
-                      <div class="font-weight-bold">Rising star</div>
-                      <div class="text-muted">BlueBash (2023)</div>
+                      <div class="font-weight-bold">RISING STAR AWARD</div>
+                      <div class="text-muted">Bluebash - Mar 2024</div>
+                      <div class="text-muted">This Certificate of Best RISING STAR AWARD shows My Dedication, Effort, and Hard work towards the Organization.</div>
                     </li>
                     <li>
-                      <div class="font-weight-bold">Gem Award</div>
-                      <div class="text-muted">BlueBash (2022)</div>
+                      <div class="font-weight-bold">SENSIBLE PERSON AWARD</div>
+                      <div class="text-muted">Bluebash - Mar 2023</div>
+                      <div class="text-muted">This AWARD shows My collaboration across teams and clients, contributing to organizational growth and a stronger reputation.</div>
                     </li>
                   </ul>
                 </section>
@@ -300,13 +340,6 @@
                   <ul class="list-unstyled resume-lang-list">
                     <li class="mb-2">English</li>
                     <li>Hindi</li>
-                  </ul>
-                </section>
-                <!--//certificates-section-->
-                <section class="skills-section py-3">
-                  <h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
-                  <ul class="list-unstyled resume-interests-list mb-0">
-                    <li>Travelling</li>
                   </ul>
                 </section>
                 <!--//certificates-section-->
